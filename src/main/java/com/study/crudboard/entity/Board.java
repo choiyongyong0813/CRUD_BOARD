@@ -16,8 +16,10 @@ public class Board {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+
     @Column(name = "board_no", nullable = false)
     private Long no;
+
 
     @Column(name = "board_title", nullable = false)
     private String title;
