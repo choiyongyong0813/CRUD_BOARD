@@ -42,6 +42,4 @@ public class User {
     @Column(name = "user_phone_number", nullable = false)
     private String phoneNumber;
 
-    @Column(name = "user_role", nullable = false)
-    private String role;
 }
