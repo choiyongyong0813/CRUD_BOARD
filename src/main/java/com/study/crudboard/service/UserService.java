@@ -28,6 +28,6 @@ public class UserService {
         User savedUser = userRepository.save(user);
 
         // 저장된 엔티티를 다시 UserDto로 변환하여 반환
-        return entityToDto(savedUser);
+        return null;
     }
 }
