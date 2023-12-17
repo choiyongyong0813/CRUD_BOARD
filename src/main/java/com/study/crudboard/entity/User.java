@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @Builder //빌더 패턴을 지원
 @DynamicUpdate //Hibernate에서 엔티티를 업데이트할 때 변경된 필드만 업데이트함
 @AllArgsConstructor //모든 필드를 인자로 받는 생성자를 생성
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PUBLIC)
 //파라미터가 없는 디폴트 생성자를 생성 access = AccessLevel.PROTECTED=생성자 접근제어수준을 protected로 설정
 
 
