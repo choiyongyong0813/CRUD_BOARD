@@ -21,7 +21,7 @@ public class User {
     @Id//이 어노테이션을 사용함으로써 해당 컬럼은 데이터베이스의 primary key(기본키)로 사용됨
     @Column(name = "user_id", length = 50, nullable = false)
     //id라는 필드가 데이터베이스에서는 "user_id"라는 이름의 컬럼에 매핑되고,
-    //길이는 50이며 null 값이 허용되지 않는다는 것을 나타냄
+    //null 값이 허용되지 않는다는 것을 나타냄
     private String id;
 
     @Column(name = "user_password", nullable = false)
